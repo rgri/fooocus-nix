@@ -31,8 +31,8 @@
                   env = {
                     LD_LIBRARY_PATH = pkgs.lib.makeLibraryPath [
                       pkgs.glib
-                      pkgs.linuxPackages.nvidia_x11
                       pkgs.libz
+                      pkgs.linuxKernel.packages.linux_6_5.nvidia_x11
                       pkgs.libGL
                       pkgs.stdenv.cc.cc
                     ];
