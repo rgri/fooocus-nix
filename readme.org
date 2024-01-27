@@ -3,6 +3,12 @@
 :ID:       4b57d0ca-305d-4051-9d53-32bde3ca3f30
 :END:
 AMD dev environment for the fooocus SD GUI. Stolen with respect from [[https://github.com/Nebucatnetzer/Fooocus][Nebucatnetzer]], who provides the Nvidia counterpart.
+* TODO
+:PROPERTIES:
+:ID:       b8853b9a-67de-48be-abe5-eac78e57533a
+:END:
+- [ ] ~RuntimeError: No CUDA GPUs are available~
+- [ ] ~cat: error while loading shared libraries: __vdso_gettimeofday: invalid mode for dlopen(): Invalid argument~
 * Fooocus
 :PROPERTIES:
 :ID:       1c22f0b9-7216-4b15-b1cc-93c3df4b59a8
