@@ -1,15 +1,8 @@
-*Non-cherry-picked* random batch by just typing two words "forest elf",
-
-without any parameter tweaking, without any strange prompt tags.
-
-See also *non-cherry-picked* generalization and diversity tests
-[[https://github.com/lllyasviel/Fooocus/discussions/808][here]] and
-[[https://github.com/lllyasviel/Fooocus/discussions/679][here]] and
-[[https://github.com/lllyasviel/Fooocus/discussions/679#realistic][here]].
-
-In the entire open source community, only Fooocus can achieve this level
-of *non-cherry-picked* quality.
-
+* Fooocus and Nix
+:PROPERTIES:
+:ID:       4b57d0ca-305d-4051-9d53-32bde3ca3f30
+:END:
+AMD dev environment for the fooocus SD GUI. Stolen with respect from [[https://github.com/Nebucatnetzer/Fooocus][Nebucatnetzer]], who provides the Nvidia counterpart.
 * Fooocus
 :PROPERTIES:
 :ID:       1c22f0b9-7216-4b15-b1cc-93c3df4b59a8
@@ -612,8 +605,3 @@ Note that if no =--language= is given and at the same time
 =Fooocus/language/default.json= exists, Fooocus will always load
 =Fooocus/language/default.json= for translation. By default, the file
 =Fooocus/language/default.json= does not exist.
-* Fooocus and Nix
-:PROPERTIES:
-:ID:       4b57d0ca-305d-4051-9d53-32bde3ca3f30
-:END:
-AMD dev environment for the fooocus SD GUI. Stolen with respect from [[https://github.com/Nebucatnetzer/Fooocus][Nebucatnetzer]], who provides the Nvidia counterpart.
