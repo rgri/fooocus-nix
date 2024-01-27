@@ -32,7 +32,7 @@
                     LD_LIBRARY_PATH = pkgs.lib.makeLibraryPath [
                       pkgs.glib
                       pkgs.libz
-                      pkgs.linuxKernel.packages.linux_6_5.nvidia_x11
+                      pkgs.rocmPackages.rocm-runtime
                       pkgs.libGL
                       pkgs.stdenv.cc.cc
                     ];
